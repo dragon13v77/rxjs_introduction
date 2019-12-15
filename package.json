@@ -1,0 +1,20 @@
+{
+  "name": "RXJS",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib",
+    "modules": "modules"
+  },
+  "scripts": {
+    "serve": "http-server ./ -p 3002 -c=0 -o http://127.0.0.1:3002/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dalibor Ristic",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {}
+}
